@@ -1,0 +1,88 @@
+Computer science is the study of computation, algorithms, data structures,
+software, and the principles used to design efficient computer systems.
+
+An algorithm is a finite sequence of well-defined instructions used to solve
+a problem. Different algorithms can solve the same problem with different
+levels of efficiency. Algorithm analysis helps us understand the time and
+space requirements of a solution.
+
+Data compression is the process of representing information using fewer bits.
+Lossless compression allows the original information to be reconstructed
+exactly after decompression. LZ-78 is one example of a lossless compression
+algorithm based on a dynamically constructed dictionary.
+
+A dictionary stores patterns that have already appeared in the input.
+When the compressor encounters a pattern that is already known, it can use
+a dictionary index instead of storing the complete pattern again.
+
+Consider the following sequence:
+ABRACADABRACADABRACADABRA
+ABRACADABRACADABRACADABRA
+ABRACADABRACADABRACADABRA
+
+The sequence contains repeated patterns. Repeated patterns are useful for
+dictionary based compression because the compressor can store the pattern
+once and refer to it later.
+
+Computer systems process large amounts of information every day.
+Computers process text, images, audio, video, documents, databases, and
+network traffic. Efficient storage and transmission of information can
+reduce storage requirements and communication costs.
+
+Algorithms can be classified in many ways. Some algorithms use recursion,
+some use dynamic programming, some use greedy strategies, and some use
+divide and conquer. The choice of an algorithm depends on the problem,
+the input size, and the required performance.
+
+Sorting is a common algorithmic problem.
+Searching is a common algorithmic problem.
+Compression is a common data processing problem.
+Optimization is a common algorithmic problem.
+Graph traversal is a common algorithmic problem.
+
+The words algorithm and data appear repeatedly in this file.
+The words algorithm and data appear repeatedly in this file.
+The words algorithm and data appear repeatedly in this file.
+The words algorithm and data appear repeatedly in this file.
+
+0123456789012345678901234567890123456789
+0123456789012345678901234567890123456789
+0123456789012345678901234567890123456789
+
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+
+LZ-78 builds a dictionary while reading the input.
+LZ-78 builds a dictionary while reading the input.
+LZ-78 builds a dictionary while reading the input.
+LZ-78 builds a dictionary while reading the input.
+LZ-78 builds a dictionary while reading the input.
+
+A larger dictionary can store more patterns.
+A smaller dictionary uses less memory.
+A dictionary that becomes full may need to be reset.
+Resetting the dictionary allows the compressor to continue processing
+new patterns without exceeding the selected dictionary limit.
+
+This experiment tests several dictionary limits.
+The limits are 100, 500, 1000, 5000, and 10000 entries.
+Each limit is tested using the same input data.
+The compressed result is verified by decompressing it and comparing it
+with the original input.
+
+The purpose of this experiment is to study the relationship between
+dictionary size, compressed file size, compression ratio, execution time,
+and memory usage.
+
+Lossless compression must preserve every byte of the original data.
+If even one byte is changed, the decompressed output is not identical.
+Therefore, decompression verification is an important part of the experiment.
+
+LZ-78 LZ-78 LZ-78 LZ-78 LZ-78
+compression compression compression compression compression
+dictionary dictionary dictionary dictionary dictionary
+pattern pattern pattern pattern pattern
+algorithm algorithm algorithm algorithm algorithm
+
+End of second test file.
